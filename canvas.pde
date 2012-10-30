@@ -77,7 +77,7 @@ void draw()
 void mouseClicked() {
    if(game) {
       if(restart.over()){
-         score = wrong = round = 0;
+         score = wrong = rounds = 0;
          game = false;
       }
       for(int j=0;j<num_choice;j++) {
