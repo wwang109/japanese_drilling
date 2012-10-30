@@ -5,8 +5,8 @@
 
 	<head>
 		<title>Seneca@York Anime Club - Japanese drilling</title>
-		<meta name="description" content="Seneca@York Anime Club's Japanese Syllabary Translator." />
-		<meta name="keywords" content="seneca college anime club, Japanese Syllabary Translator, translator, hiragana, katakana" />
+		<meta name="description" content="Seneca@York Anime Club's Japanese drilling." />
+		<meta name="keywords" content="seneca college anime club, Japanese drilling, japanese game, hiragana, katakana, kanji" />
 		<link rel="stylesheet" href="/style.css" type="text/css" />
       <script src="processing.js"></script>
 
