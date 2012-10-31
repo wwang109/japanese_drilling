@@ -3,6 +3,7 @@ qbox dp, restart;
 qbox quick_game, basic_game, Inter_game, Advance_game;
 qbox Options, hira, kata, kanji;
 boolean game = false;
+boolean answered = false;
 int num_choice=4, rounds=0;
 int score, wrong;
 float box_h, field_w, field_l;
@@ -77,21 +78,47 @@ void draw()
 }
 
 void mouseClicked() {
+   for(int i=0;i<num_choice;i++)
+     question[i].strokes = false; 
+
    if(game) {
       if(restart.over()){
          score = wrong = rounds = 0;
          game = false;
+         answered = false;
       }
-      for(int j=0;j<num_choice;j++) {
-         if(question[j].over()) {
-         //check if answer is correct
-            if(question[j].value == dp.value)
-               score++;
-            else
-               wrong++;
-               //change rounds
-            next_question();			
-            return;
+      else {
+         if(answered == true) {
+            answered = false;
+            for(int i=0;i<num_choice;i++)
+               question[i].strokes = false;           
+            next_question();
+         }
+         else {   
+            for(int j=0;j<num_choice;j++) {
+               if(question[j].over()) {
+               //check if answer is correct
+                  if(question[j].value == dp.value) {
+                     score++;
+                     question[j].strokes = true;
+                     question[j].currentColor = color(0,200,200);
+                  }
+                  else {
+                     wrong++;
+                     question[j].strokes = true;
+                     question[j].currentColor = color(200,50,50);
+                     for(i=0;i<num_choice;i++) {
+                        if(question[i].value == dp.value) {
+                           question[i].strokes = true;
+                           question[i].currentColor = color(0,200,200);                        
+                        }
+                     }                    
+                  }
+                     //change rounds
+                     answered = true;               			
+                  return;
+               }
+            }
          }
       }
    } 
@@ -160,7 +187,6 @@ void next_question() {
     //choosing which box question
     int ans = int(random(num_choice));
     //put answer number into num[] 
-    //num[ans] = ran;
 	dp.add(quest);
    int j;
    for(i=0;i<num_choice;i++){
@@ -172,13 +198,11 @@ void next_question() {
          }
       }
       qchoice = split(lines[num[i]], ":");
-      question[i].add(qchoice);
-      //question[i].strokes = false; //uncomment to show answer      
+      question[i].add(qchoice);     
    }
    question[ans].add(quest);
    if(kanji.strokes == true)
-      reading.name = quest[2];
-   //question[ans].strokes = true; //CHEAT uncomment to show answer   
+      reading.name = quest[2]; 
 }
 
 
@@ -188,6 +212,7 @@ class box {
    String name;
    String [] value;
    boolean strokes;
+   color currentColor;
    
    boolean overRect(int x, int y, int width, int height) {
       if (mouseX >= x && mouseX <= x+width && 
@@ -201,7 +226,7 @@ class box {
    void displays() {
       fill(250);
       if(strokes)
-         fill(0,50,100);
+         fill(currentColor);
       rect(x, y, size, sizew);
       fill(0, 100, 250);
       
@@ -219,6 +244,7 @@ class qbox extends box
       sizew= isizew;
 		name = ival;
       strokes = false;
+      currentColor = color(0,50,100);
    }
    
    void add(String [] ival) {
@@ -231,7 +257,7 @@ class qbox extends box
    void display(boolean s) {
       fill(255);
       if(strokes)
-         fill(0,50,100);      
+         fill(currentColor);      
       rect(x, y, size, sizew);
       fill(0, 100, 250);
 	  //possible option to switch them
