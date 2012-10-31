@@ -1,318 +1,80 @@
-﻿一:one:イチ,イツ,ひと,ひと-つichi,itsu,hito,hito-tsu
-
-
-
-右:right(direction):ウ,ユウ,みぎu,yū,migi
-
-
-
-雨:rain:ウ,あめ,(あま)u,ame,(ama)
-
-
-
-円:round,yen:エン,まる-いen,maru-i
-
-
-
-王:king:オウō
-
-
-
-音:sound:オン,イン,おと,ねon,in,oto,ne
-
-
-
-下:below:カ,ゲ,した,しも,もと,さ-げる,さ-がる,くだ-る,くだ-す,くだ-さる,お-ろす,お-りるka,ge,shita,shimo,moto,sa-geru,sa-garu,kuda-ru,kuda-su,kuda-saru,o-rosu,o-riru
-
-
-
-火:fire:カ,ひ,(ほ)ka,hi,(ho)
-
-
-
-花:flower:カ,はなka,hana
-
-
-
-貝:shellfish:かいkai
-
-
-
-学:study:ガク,まな-ぶgaku,mana-bu
-
-
-
-気:feeling:キ,ケki,ke
-
-
-
-九:nine:キュウ,ク,ここの,ここの-つkyū,ku,kokono,kokono-tsu
-
-
-
-休:rest:キュウ,やす-む,やす-まる,やす-めるkyū,yasu-mu,yasu-maru,yasu-meru
-
-
-
-玉:ball:ギョク,たまgyoku,tama
-
-
-
-金:gold:キン,コン,かね,(かな)kin,kon,kane,(kana)
-
-
-
-空:sky:クウ,そら,あ-く,あ-ける,からkū,sora,a-ku,a-keru,kara
-
-
-
-月:month,moon:ゲツ,ガツ,つきgetsu,gatsu,tsuki
-
-
-
-犬:dog:ケン,いぬken,inu
-
-
-
-見:see:ケン,み-る,み-える,み-せるken,mi-ru,mi-eru,mi-seru
-
-
-
-五:five:ゴ,いつ,いつ-つgo,itsu,itsu-tsu
-
-
-
-口:mouth:コウ,ク,くちkō,ku,kuchi
-
-
-
+﻿一:one:イチ, イツ, ひと, ひと-つ ichi, itsu, hito, hito-tsu
+右:right(direction):ウ, ユウ, みぎ u, yū, migi
+雨:rain:ウ, あめ, (あま) u, ame, (ama)
+円:round, yen:エン, まる-い en, maru-i
+王:king:オウ ō
+音:sound:オン, イン, おと, ね on, in, oto, ne
+下:below:カ, ゲ, した, しも, もと, さ-げる, さ-がる, くだ-る, くだ-す, くだ-さる, お-ろす, お-りる ka, ge, shita, shimo, moto, sa-geru, sa-garu, kuda-ru, kuda-su, kuda-saru, o-rosu, o-riru
+火:fire:カ, ひ, (ほ) ka, hi, (ho)
+花:flower:カ, はな ka, hana
+貝:shellfish:かい kai
+学:study:ガク, まな-ぶ gaku, mana-bu
+気:feeling:キ, ケ ki, ke
+九:nine:キュウ, ク, ここの, ここの-つ kyū, ku, kokono, kokono-tsu
+休:rest:キュウ, やす-む, やす-まる, やす-める kyū, yasu-mu, yasu-maru, yasu-meru
+玉:ball:ギョク, たま gyoku, tama
+金:gold:キン, コン, かね, (かな)kin, kon, kane, (kana)
+空:sky:クウ, そら, あ-く, あ-ける, からkū, sora, a-ku, a-keru, kara
+月:month, moon:ゲツ, ガツ, つきgetsu, gatsu, tsuki
+犬:dog:ケン, いぬken, inu
+見:see:ケン, み-る, み-える, み-せるken, mi-ru, mi-eru, mi-seru
+五:five:ゴ, いつ, いつ-つgo, itsu, itsu-tsu
+口:mouth:コウ, ク, くちkō, ku, kuchi
 校:school:コウkō
-
-
-
-左:left(direction):サ,ひだりsa,hidari
-
-
-
-三:three:サン,み,み-つ,みっ-つsan,mi,mi-tsu,mi'-tsu
-
-
-
-山:mountain:サン,やまsan,yama
-
-
-
-子:child:シ,ス,こshi,su,ko
-
-
-
-四:four:シ,よ,よ-つ,よっ-つ,よんshi,yo,yo-tsu,yo'-tsu,yon
-
-
-
-糸:thread:シ,いとshi,ito
-
-
-
-字:letter:ジ,あざji,aza
-
-
-
-耳:ear:ジ,みみji,mimi
-
-
-
-七:seven:シチ,なな,なな-つ,(なの)shichi,nana,nana-tsu,(nano)
-
-
-
-車:car:シャ,くるまsha,kuruma
-
-
-
-手:hand:シュ,て,(た)shu,te,(ta)
-
-
-
-十:ten:ジュウ,ジッ,とお,とjū,ji',too,to
-
-
-
-出:exit:シュツ,(スイ),で-る,だ-すshutsu,(sui),de-ru,da-su
-
-
-
-女:woman:ジョ,ニョ,(ニョウ),おんな,めjo,nyo,(nyō),onna,me
-
-
-
-小:small:ショウ,ちい-さい,こ,おshō,chii-sai,ko,o
-
-
-
-上:up:ジョウ,(ショウ),うえ,(うわ),かみ,あ-げる,あ-がる,のぼ-る,のぼ-せる,のぼ-すjō,(shō),ue,(uwa),kami,a-geru,a-garu,nobo-ru,nobo-seru,nobo-su
-
-
-
-森:forest:シン,もりshin,mori
-
-
-
-人:person:ジン,ニン,ひとjin,nin,hito
-
-
-
-水:water:スイ,みずsui,mizu
-
-
-
-正:correct:セイ,ショウ,ただ-しい,ただ-す,まさsei,shō,tada-shii,tada-su,masa
-
-
-
-生:life:セイ,ショウ,い-きる,い-かす,い-ける,う-まれる,う-む,お-う,は-える,は-やす,き,なまsei,shō,i-kiru,i-kasu,i-keru,u-mareru,u-mu,o-u,ha-eru,ha-yasu,ki,nama
-
-
-
-青:blue:セイ,(ショウ),あお,あお-いsei,(shō),ao,ao-i
-
-
-
-夕:evening:セキ,ゆうseki,yū
-
-
-
-石:stone:セキ,(シャク),(コク),いしseki,(shaku),(koku),ishi
-
-
-
-赤:red:セキ,(シャク),あか,あか-い,あか-らむ,あか-らめるseki,(shaku),aka,aka-i,aka-ramu,aka-rameru
-
-
-
-千:thousand:セン,ちsen,chi
-
-
-
-川:river:セン,かわsen,kawa
-
-
-
-先:previous:セン,さきsen,saki
-
-
-
-早:early:ソウ,(サッ),はや-い,はや-まる,はや-めるsō,(sa'),haya-i,haya-maru,haya-meru
-
-
-
-草:grass:ソウ,くさsō,kusa
-
-
-
-足:foot:ソク,あし,た-りる,た-る,た-すsoku,ashi,ta-riru,ta-ru,ta-su
-
-
-
-村:village:ソン,むらson,mura
-
-
-
-大:large:ダイ,タイ,おお,おお-きい,おお-いにdai,tai,oo,oo-kii,oo-ini
-
-
-
-男:male:ダン,ナン,おとこdan,nan,otoko
-
-
-
-竹:bamboo:チク,たけchiku,take
-
-
-
-中:middle:チュウ,(ジュウ),なかchū,(jū),naka
-
-
-
-虫:insect:チュウ,むしchū,mushi
-
-
-
-町:town:チョウ,まちchō,machi
-
-
-
-天:heaven:テン,あめ,(あま)ten,ame,(ama)
-
-
-
-田:ricepaddy:デン,たden,ta
-
-
-
-土:soil:ド,ト,つちdo,to,tsuchi
-
-
-
-二:two:ニ,ふた,ふた-つni,futa,futa-tsu
-
-
-
-日:day:ニチ,ジツ,ひ,かnichi,jitsu,hi,ka
-
-
-
-入:enter:ニュウ,い-る,い-れる,はい-るnyū,i-ru,i-reru,hai-ru
-
-
-
-年:year:ネン,としnen,toshi
-
-
-
-白:white:ハク,ビャク,しろ,(しら),しろ-いhaku,byaku,shiro,(shira),shiro-i
-
-
-
-八:eight:ハチ,や,や-つ,やっ-つ,(よう)hachi,ya,ya-tsu,ya'-tsu,(yō)
-
-
-
+左:left(direction):サ, ひだりsa, hidari
+三:three:サン, み, み-つ, みっ-つsan, mi, mi-tsu, mi'-tsu
+山:mountain:サン, やまsan, yama
+子:child:シ, ス, こshi, su, ko
+四:four:シ, よ, よ-つ, よっ-つ, よんshi, yo, yo-tsu, yo'-tsu, yon
+糸:thread:シ, いとshi, ito
+字:letter:ジ, あざji, aza
+耳:ear:ジ, みみji, mimi
+七:seven:シチ, なな, なな-つ, (なの)shichi, nana, nana-tsu, (nano)
+車:car:シャ, くるまsha, kuruma
+手:hand:シュ, て, (た)shu, te, (ta)
+十:ten:ジュウ, ジッ, とお, とjū, ji', too, to
+出:exit:シュツ, (スイ), で-る, だ-すshutsu, (sui), de-ru, da-su
+女:woman:ジョ, ニョ, (ニョウ), おんな, めjo, nyo, (nyō), onna, me
+小:small:ショウ, ちい-さい, こ, おshō, chii-sai, ko, o
+上:up:ジョウ, (ショウ), うえ, (うわ), かみ, あ-げる, あ-がる, のぼ-る, のぼ-せる, のぼ-すjō, (shō), ue, (uwa), kami, a-geru, a-garu, nobo-ru, nobo-seru, nobo-su
+森:forest:シン, もりshin, mori
+人:person:ジン, ニン, ひとjin, nin, hito
+水:water:スイ, みずsui, mizu
+正:correct:セイ, ショウ, ただ-しい, ただ-す, まさsei, shō, tada-shii, tada-su, masa
+生:life:セイ, ショウ, い-きる, い-かす, い-ける, う-まれる, う-む, お-う, は-える, は-やす, き, なまsei, shō, i-kiru, i-kasu, i-keru, u-mareru, u-mu, o-u, ha-eru, ha-yasu, ki, nama
+青:blue:セイ, (ショウ), あお, あお-いsei, (shō), ao, ao-i
+夕:evening:セキ, ゆうseki, yū
+石:stone:セキ, (シャク), (コク), いしseki, (shaku), (koku), ishi
+赤:red:セキ, (シャク), あか, あか-い, あか-らむ, あか-らめるseki, (shaku), aka, aka-i, aka-ramu, aka-rameru
+千:thousand:セン, ちsen, chi
+川:river:セン, かわsen, kawa
+先:previous:セン, さきsen, saki
+早:early:ソウ, (サッ), はや-い, はや-まる, はや-めるsō, (sa'), haya-i, haya-maru, haya-meru
+草:grass:ソウ, くさsō, kusa
+足:foot:ソク, あし, た-りる, た-る, た-すsoku, ashi, ta-riru, ta-ru, ta-su
+村:village:ソン, むらson, mura
+大:large:ダイ, タイ, おお, おお-きい, おお-いにdai, tai, oo, oo-kii, oo-ini
+男:male:ダン, ナン, おとこdan, nan, otoko
+竹:bamboo:チク, たけchiku, take
+中:middle:チュウ, (ジュウ), なかchū, (jū), naka
+虫:insect:チュウ, むしchū, mushi
+町:town:チョウ, まちchō, machi
+天:heaven:テン, あめ, (あま)ten, ame, (ama)
+田:ricepaddy:デン, たden, ta
+土:soil:ド, ト, つちdo, to, tsuchi
+二:two:ニ, ふた, ふた-つni, futa, futa-tsu
+日:day:ニチ, ジツ, ひ, かnichi, jitsu, hi, ka
+入:enter:ニュウ, い-る, い-れる, はい-るnyū, i-ru, i-reru, hai-ru
+年:year:ネン, としnen, toshi
+白:white:ハク, ビャク, しろ, (しら), しろ-いhaku, byaku, shiro, (shira), shiro-i
+八:eight:ハチ, や, や-つ, やっ-つ, (よう)hachi, ya, ya-tsu, ya'-tsu, (yō)
 百:hundred:ヒャクhyaku
-
-
-
-文:writing:ブン,モン,ふみbun,mon,fumi
-
-
-
-木:tree:ボク,モク,き,(こ)boku,moku,ki,(ko)
-
-
-
-本:book:ホン,もとhon,moto
-
-
-
-名:name:メイ,ミョウ,なmei,myō,na
-
-
-
-目:eye:モク,(ボク),め,(ま)moku,(boku),me,(ma)
-
-
-
-立:standup:リツ,(リュウ),た-つ,た-てるritsu,(ryū),ta-tsu,ta-teru
-
-
-
-力:power:リョク,リキ,ちからryoku,riki,chikara
-
-
-
-林:woods:リン,はやしrin,hayashi
-
-
-
-六:six:ロク,む,む-つ,むっ-つ,(むい)roku,mu,mu-tsu,mu'-tsu,(mui)
-
+文:writing:ブン, モン, ふみbun, mon, fumi
+木:tree:ボク, モク, き, (こ)boku, moku, ki, (ko)
+本:book:ホン, もとhon, moto
+名:name:メイ, ミョウ, なmei, myō, na
+目:eye:モク, (ボク), め, (ま)moku, (boku), me, (ma)
+立:standup:リツ, (リュウ), た-つ, た-てるritsu, (ryū), ta-tsu, ta-teru
+力:power:リョク, リキ, ちからryoku, riki, chikara
+林:woods:リン, はやしrin, hayashi
+六:six:ロク, む, む-つ, むっ-つ, (むい)roku, mu, mu-tsu, mu'-tsu, (mui)

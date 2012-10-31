@@ -12,7 +12,6 @@ String [] lines;
 void setup() 
 { 
    size(501, 501);
-   //setting
    int box_l = 200, box_w = 50;
    quick_game = new qbox((width-1)/2-(box_l), (height-1)/8*3, box_l, box_w, "Quick game");
    basic_game = new qbox((width-1)/2-(box_l), (height-1)/8*4, box_l, box_w, "Basic");
@@ -26,26 +25,27 @@ void setup()
    kanji = new qbox((width-1)/2+50, (height-1)/8*6, box_l/2, box_w, "Kanji");
    
    
-   box_h = (float)(width-(10*(num_choice-1)+101))/num_choice;
-   field_l = (height/5)*3;
-   field_w = 51;
-   //setting end
+   box_h = (int)(width-(10*(num_choice-1)+101))/num_choice;
+
    
    //restart box
    restart = new qbox((width-111), 15, 90, 30, "restart");
-   
+   //the question box
+   dp = new qbox(175, 50, 150, 100, 0);   
+   //reading box
+   reading = new qbox(150, 180, 200, 50, 0);
    //loading questions 
    question = new box[num_choice];
    
-   
-   //the question box
-   dp = new qbox(175, 50, 150, 100, 0);
+
+   field_l = (height/5)*3;
+   field_w = 51;
    //creating choice box
    for(int i=0;i<num_choice;i++) {
          question[i] = new qbox(field_w, field_l, box_h, box_h, 0);
          field_w += box_h + 10;
    } 
-   //next_question();
+
 }
 
 void draw() 
@@ -54,24 +54,26 @@ void draw()
    
    if(game) {
       fill(250);
-      textAlign(LEFT);
+      textAlign();
       text("number of Correct= " + score, 0, 15);
       text("number of Wrong= " + wrong, 0, 35);
       text("rounds= " + rounds, 0, 55);
       //update();
+      textAlign(CENTER,CENTER);
       restart.displays();
-      
-      textAlign(CENTER);
-      for(int j=0;j<num_choice;j++) {
-        textSize(30);
+      if(kanji.strokes == true)
+         reading.displays();
+      //textAlign(CENTER,CENTER);
+      for(int j=0;j<num_choice;j++) {     
         dp.display(true);
         question[j].display(false);
       }
       
    }
-   else
+   else{
+      textAlign(CENTER,CENTER);   
       start_menu();
-   
+   }
 }
 
 void mouseClicked() {
@@ -125,13 +127,17 @@ void start_game(int type){
       if(kata.strokes){
          lines = loadStrings("katakana.txt");
       }
+      if(kanji.strokes){
+         lines = loadStrings("kanji_1.txt");
+      }
       game = true;
       next_question();
    }
 
 }
 void start_menu() {
-   textAlign();
+
+   //textAlign(CENTER,CENTER);
    quick_game.displays();
    basic_game.displays();
    Inter_game.displays();
@@ -153,6 +159,9 @@ void next_question() {
    for(int i=0;i<num_choice;i++) {
       if(ans == i) {
          question[i].add(quest);
+         if(kanji.strokes == true)
+            reading.name = quest[2];
+         //question[i].strokes = true; //CHEAT uncomment to show answer
       }
       else {
          ran = int(random(lines.length));
@@ -161,6 +170,7 @@ void next_question() {
          }
 		 qchoice = split(lines[ran], ":");
          question[i].add(qchoice);
+         //question[i].strokes = false; //uncomment to show answer
       }
    } 	
 
@@ -170,6 +180,7 @@ void next_question() {
 class box {
    int x, y;
    int size, sizew;
+   String name;
    String [] value;
    boolean strokes;
    
@@ -189,21 +200,19 @@ class box {
       rect(x, y, size, sizew);
       fill(0, 100, 250);
       
-      //textAlign(CENTER);
-      text(value, x + ((size-(value.length*6))/2),y+((sizew+value.length)/2));
-      //text(value, x+size-value.length, y+((sizew+value.length)/2));
+      text(name, x,y, size, sizew);
       noFill();
    }  
 }
 
 class qbox extends box
 {
-   qbox(int ix, int iy, int isize, int isizew, String [] ival) {
+   qbox(int ix, int iy, int isize, int isizew, String ival) {
       x = ix;
       y = iy;
       size = isize;
       sizew= isizew;
-		value = ival;
+		name = ival;
       strokes = false;
    }
    
@@ -215,15 +224,16 @@ class qbox extends box
       return overRect(x, y, size, sizew);
    }
    void display(boolean s) {
-      //stroke(255);
       fill(255);
+      if(strokes)
+         fill(0,50,100);      
       rect(x, y, size, sizew);
       fill(0, 100, 250);
 	  //possible option to switch them
 	  if(s)
-		text(value[0], x+(size/2), y+(sizew/2)+10);
+		text(value[1], x, y, size, sizew);
       else
-		text(value[1], x+(size/2), y+(sizew/2)+10);
+		text(value[0], x, y, size, sizew);
       
       noFill();
    }
