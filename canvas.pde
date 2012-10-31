@@ -152,28 +152,33 @@ void next_question() {
 	rounds++;
 	//changing word
     int ran = int(random(lines.length));
+    //array of num 
+    int [] num = new num[num_choice];
+    for(int i=0; i<num_choice;i++)
+      num[i]= 0;
     String [] quest = split(lines[ran], ':');
     //choosing which box question
     int ans = int(random(num_choice));
+    //put answer number into num[] 
+    //num[ans] = ran;
 	dp.add(quest);
-   for(int i=0;i<num_choice;i++) {
-      if(ans == i) {
-         question[i].add(quest);
-         if(kanji.strokes == true)
-            reading.name = quest[2];
-         //question[i].strokes = true; //CHEAT uncomment to show answer
-      }
-      else {
-         ran = int(random(lines.length));
-         while(ans == ran) {
-            ran = int(random(lines.length));
+   int j;
+   for(i=0;i<num_choice;i++){
+      num[i] = int(random(lines.length));
+      for(j=0;j<i;j++) {
+         if(num[j] == num[i] || num[i] == ran){
+            num[i] = int(random(lines.length));
+            j--;
          }
-		 qchoice = split(lines[ran], ":");
-         question[i].add(qchoice);
-         //question[i].strokes = false; //uncomment to show answer
       }
-   } 	
-
+      qchoice = split(lines[num[i]], ":");
+      question[i].add(qchoice);
+      //question[i].strokes = false; //uncomment to show answer      
+   }
+   question[ans].add(quest);
+   if(kanji.strokes == true)
+      reading.name = quest[2];
+   //question[ans].strokes = true; //CHEAT uncomment to show answer   
 }
 
 
