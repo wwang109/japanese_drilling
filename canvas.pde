@@ -54,10 +54,13 @@ void draw()
    background(1);
    
    if(game) {
-      fill(250);
+      
       textAlign();
+      fill(0,200,200);
       text("number of Correct= " + score, 0, 15);
+      fill(200,50,50);
       text("number of Wrong= " + wrong, 0, 35);
+      fill(250);
       text("rounds= " + rounds, 0, 55);
       //update();
       textAlign(CENTER,CENTER);
