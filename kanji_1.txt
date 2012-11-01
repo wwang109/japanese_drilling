@@ -1,80 +1,160 @@
-﻿一:one:イチ, イツ, ひと, ひと-つ ichi, itsu, hito, hito-tsu
-右:right(direction):ウ, ユウ, みぎ u, yū, migi
-雨:rain:ウ, あめ, (あま) u, ame, (ama)
-円:round, yen:エン, まる-い en, maru-i
-王:king:オウ ō
-音:sound:オン, イン, おと, ね on, in, oto, ne
-下:below:カ, ゲ, した, しも, もと, さ-げる, さ-がる, くだ-る, くだ-す, くだ-さる, お-ろす, お-りる ka, ge, shita, shimo, moto, sa-geru, sa-garu, kuda-ru, kuda-su, kuda-saru, o-rosu, o-riru
-火:fire:カ, ひ, (ほ) ka, hi, (ho)
-花:flower:カ, はな ka, hana
-貝:shellfish:かい kai
-学:study:ガク, まな-ぶ gaku, mana-bu
-気:feeling:キ, ケ ki, ke
-九:nine:キュウ, ク, ここの, ここの-つ kyū, ku, kokono, kokono-tsu
-休:rest:キュウ, やす-む, やす-まる, やす-める kyū, yasu-mu, yasu-maru, yasu-meru
-玉:ball:ギョク, たま gyoku, tama
-金:gold:キン, コン, かね, (かな)kin, kon, kane, (kana)
-空:sky:クウ, そら, あ-く, あ-ける, からkū, sora, a-ku, a-keru, kara
-月:month, moon:ゲツ, ガツ, つきgetsu, gatsu, tsuki
-犬:dog:ケン, いぬken, inu
-見:see:ケン, み-る, み-える, み-せるken, mi-ru, mi-eru, mi-seru
-五:five:ゴ, いつ, いつ-つgo, itsu, itsu-tsu
-口:mouth:コウ, ク, くちkō, ku, kuchi
-校:school:コウkō
-左:left(direction):サ, ひだりsa, hidari
-三:three:サン, み, み-つ, みっ-つsan, mi, mi-tsu, mi'-tsu
-山:mountain:サン, やまsan, yama
-子:child:シ, ス, こshi, su, ko
-四:four:シ, よ, よ-つ, よっ-つ, よんshi, yo, yo-tsu, yo'-tsu, yon
-糸:thread:シ, いとshi, ito
-字:letter:ジ, あざji, aza
-耳:ear:ジ, みみji, mimi
-七:seven:シチ, なな, なな-つ, (なの)shichi, nana, nana-tsu, (nano)
-車:car:シャ, くるまsha, kuruma
-手:hand:シュ, て, (た)shu, te, (ta)
-十:ten:ジュウ, ジッ, とお, とjū, ji', too, to
-出:exit:シュツ, (スイ), で-る, だ-すshutsu, (sui), de-ru, da-su
-女:woman:ジョ, ニョ, (ニョウ), おんな, めjo, nyo, (nyō), onna, me
-小:small:ショウ, ちい-さい, こ, おshō, chii-sai, ko, o
-上:up:ジョウ, (ショウ), うえ, (うわ), かみ, あ-げる, あ-がる, のぼ-る, のぼ-せる, のぼ-すjō, (shō), ue, (uwa), kami, a-geru, a-garu, nobo-ru, nobo-seru, nobo-su
-森:forest:シン, もりshin, mori
-人:person:ジン, ニン, ひとjin, nin, hito
-水:water:スイ, みずsui, mizu
-正:correct:セイ, ショウ, ただ-しい, ただ-す, まさsei, shō, tada-shii, tada-su, masa
-生:life:セイ, ショウ, い-きる, い-かす, い-ける, う-まれる, う-む, お-う, は-える, は-やす, き, なまsei, shō, i-kiru, i-kasu, i-keru, u-mareru, u-mu, o-u, ha-eru, ha-yasu, ki, nama
-青:blue:セイ, (ショウ), あお, あお-いsei, (shō), ao, ao-i
-夕:evening:セキ, ゆうseki, yū
-石:stone:セキ, (シャク), (コク), いしseki, (shaku), (koku), ishi
-赤:red:セキ, (シャク), あか, あか-い, あか-らむ, あか-らめるseki, (shaku), aka, aka-i, aka-ramu, aka-rameru
-千:thousand:セン, ちsen, chi
-川:river:セン, かわsen, kawa
-先:previous:セン, さきsen, saki
-早:early:ソウ, (サッ), はや-い, はや-まる, はや-めるsō, (sa'), haya-i, haya-maru, haya-meru
-草:grass:ソウ, くさsō, kusa
-足:foot:ソク, あし, た-りる, た-る, た-すsoku, ashi, ta-riru, ta-ru, ta-su
-村:village:ソン, むらson, mura
-大:large:ダイ, タイ, おお, おお-きい, おお-いにdai, tai, oo, oo-kii, oo-ini
-男:male:ダン, ナン, おとこdan, nan, otoko
-竹:bamboo:チク, たけchiku, take
-中:middle:チュウ, (ジュウ), なかchū, (jū), naka
-虫:insect:チュウ, むしchū, mushi
-町:town:チョウ, まちchō, machi
-天:heaven:テン, あめ, (あま)ten, ame, (ama)
-田:ricepaddy:デン, たden, ta
-土:soil:ド, ト, つちdo, to, tsuchi
-二:two:ニ, ふた, ふた-つni, futa, futa-tsu
-日:day:ニチ, ジツ, ひ, かnichi, jitsu, hi, ka
-入:enter:ニュウ, い-る, い-れる, はい-るnyū, i-ru, i-reru, hai-ru
-年:year:ネン, としnen, toshi
-白:white:ハク, ビャク, しろ, (しら), しろ-いhaku, byaku, shiro, (shira), shiro-i
-八:eight:ハチ, や, や-つ, やっ-つ, (よう)hachi, ya, ya-tsu, ya'-tsu, (yō)
-百:hundred:ヒャクhyaku
-文:writing:ブン, モン, ふみbun, mon, fumi
-木:tree:ボク, モク, き, (こ)boku, moku, ki, (ko)
-本:book:ホン, もとhon, moto
-名:name:メイ, ミョウ, なmei, myō, na
-目:eye:モク, (ボク), め, (ま)moku, (boku), me, (ma)
-立:standup:リツ, (リュウ), た-つ, た-てるritsu, (ryū), ta-tsu, ta-teru
-力:power:リョク, リキ, ちからryoku, riki, chikara
-林:woods:リン, はやしrin, hayashi
-六:six:ロク, む, む-つ, むっ-つ, (むい)roku, mu, mu-tsu, mu'-tsu, (mui)
+﻿引:pull:イン,ひ-く,ひ-けるin,hi-ku,hi-keru
+羽:feather:ウ,は,はねu,ha,hane
+雲:cloud:ウン,くもun,kumo
+園:garden:エン,そのen,sono
+遠:far:エン,(オン),とお-いen,(on),too-i
+何:what:カ,なに,(なん)ka,nani,(nan)
+科:section:カka
+夏:summer:カ,(ゲ),なつka,(ge),natsu
+家:house:カ,ケ,いえ,やka,ke,ie,ya
+歌:song:カ,うた,うた-うka,uta,uta-u
+画:tableau:ガ,カクga,kaku
+回:times:カイ,(エ),まわ-る,まわ-すkai,(e),mawa-ru,mawa-su
+会:association:カイ,エ,あ-うkai,e,a-u
+海:sea:カイ,うみkai,umi
+絵:picture:カイ,エkai,e
+外:outside:ガイ,ゲ,そと,ほか,はず-す,はず-れるgai,ge,soto,hoka,hazu-su,hazu-reru
+角:angle:カク,かど,つのkaku,kado,tsuno
+楽:pleasure:ガク,ラク,たの-しい,たの-しむgaku,raku,tano-shii,tano-shimu
+活:active:カツkatsu
+間:interval:カン,ケン,あいだ,まkan,ken,aida,ma
+丸:circle:ガン,まる,まる-い,まる-めるgan,maru,maru-i,maru-meru
+岩:boulder:ガン,いわgan,iwa
+顔:face:ガン,かおgan,kao
+汽:steam:キki
+記:writedown:キ,しる-すki,shiru-su
+帰:toreturn:キ,かえ-る,かえ-すki,kae-ru,kae-su
+弓:bow(archery,violin):キュウ,ゆみkyū,yumi
+牛:cow:ギュウ,うしgyū,ushi
+魚:fish:ギョ,うお,さかなgyo,uo,sakana
+京:capital:キョウ,ケイkyō,kei
+強:strong:キョウ,ゴウ,つよ-い,つよ-まる,つよ-める,し-いるkyō,gō,tsuyo-i,tsuyo-maru,tsuyo-meru,shi-iru
+教:teach:キョウ,おし-える,おそ-わるkyō,oshi-eru,oso-waru
+近:near:キン,ちか-いkin,chika-i
+兄:olderbrother:ケイ,(キョウ),あにkei,(kyō),ani
+形:shape:ケイ,ギョウ,かた,かたちkei,gyō,kata,katachi
+計:measure:ケイ,はか-る,はか-らうkei,haka-ru,haka-rau
+元:origin:ゲン,ガン,もとgen,gan,moto
+言:say:ゲン,ゴン,い-う,ことgen,gon,i-u,koto
+原:field:ゲン,はらgen,hara
+戸:door:コ,とko,to
+古:old:コ,ふる-い,ふる-すko,furu-i,furu-su
+午:noon:ゴgo
+後:behind:ゴ,コウ,のち,うし-ろ,あと,おく-れるgo,kō,nochi,ushi-ro,ato,oku-reru
+語:language:ゴ,かた-る,かた-らうgo,kata-ru,kata-rau
+工:craft:コウ,クkō,ku
+公:public:コウ,おおやけkō,ooyake
+広:wide:コウ,ひろ-い,ひろ-まる,ひろ-める,ひろ-がる,ひろ-げるkō,hiro-i,hiro-maru,hiro-meru,hiro-garu,hiro-geru
+交:mix:コウ,まじ-わる,まじ-える,ま-じる,ま-ざる,ま-ぜる,か-う,か-わすkō,maji-waru,maji-eru,ma-jiru,ma-zaru,ma-zeru,ka-u,ka-wasu
+光:ray:コウ,ひか-る,ひかりkō,hika-ru,hikari
+考:think:コウ,かんが-えるkō,kanga-eru
+行:go:コウ,ギョウ,(アン),い-く,ゆ-く,おこな-うkō,gyō,(an),i-ku,yu-ku,okona-u
+高:tall,expensive:コウ,たか-い,たか,たか-まる,たか-めるkō,taka-i,taka,taka-maru,taka-meru
+黄:yellow:コウ,オウ,き,(こ)kō,ō,ki,(ko)
+合:fit:ゴウ,ガッ,(カッ),あ-う,あ-わす,あ-わせるgō,ga',(ka'),a-u,a-wasu,a-waseru
+谷:valley:コク,たにkoku,tani
+国:country:コク,くにkoku,kuni
+黒:black:コク,くろ,くろ-いkoku,kuro,kuro-i
+今:now:コン,キン,いまkon,kin,ima
+才:genius:サイsai
+細:thin:サイ,ほそ-い,ほそ-る,こま-か,こま-かいsai,hoso-i,hoso-ru,koma-ka,koma-kai
+作:make:サク,サ,つく-るsaku,sa,tsuku-ru
+算:calculate:サンsan
+止:stop:シ,と-まる,と-めるshi,to-maru,to-meru
+市:market:シ,いちshi,ichi
+矢:arrow:シ,やshi,ya
+姉:oldersister:シ,あねshi,ane
+思:think:シ,おも-うshi,omo-u
+紙:paper:シ,かみshi,kami
+寺:Buddhisttemple:ジ,てらji,tera
+自:oneself:ジ,シ,みずか-らji,shi,mizuka-ra
+時:time:ジ,ときji,toki
+室:room:シツ,むろshitsu,muro
+社:company:シャ,やしろsha,yashiro
+弱:weak:ジャク,よわ-い,よわ-る,よわ-まる,よわ-めるjaku,yowa-i,yowa-ru,yowa-maru,yowa-meru
+首:neck:シュ,くびshu,kubi
+秋:autumn:シュウ,あきshū,aki
+週:week:シュウshū
+春:springtime:シュン,はるshun,haru
+書:write:ショ,か-くsho,ka-ku
+少:few:ショウ,すく-ない,すこ-しshō,suku-nai,suko-shi
+場:place:ジョウ,ばjō,ba
+色:color:ショク,シキ,いろshoku,shiki,iro
+食:eat,meal:ショク,(ジキ),く-う,く-らう,た-べるshoku,(jiki),ku-u,ku-rau,ta-beru
+心:heart:シン,こころshin,kokoro
+新:new:シン,あたら-しい,あら-た,にいshin,atara-shii,ara-ta,nii
+親:parent:シン,おや,した-しい,した-しむshin,oya,shita-shii,shita-shimu
+図:diagram:ズ,ト,はか-るzu,to,haka-ru
+数:number:スウ,(ス),かず,かぞ-えるsū,(su),kazu,kazo-eru
+西:west:セイ,サイ,にしsei,sai,nishi
+声:voice:セイ,(ショウ),こえ,(こわ)sei,(shō),koe,(kowa)
+星:star:セイ,(ショウ),ほしsei,(shō),hoshi
+晴:clearup:セイ,は-れる,は-らすsei,ha-reru,ha-rasu
+切:cut:セツ,(サイ),き-る,き-れるsetsu,(sai),ki-ru,ki-reru
+雪:snow:セツ,ゆきsetsu,yuki
+船:boat:セン,ふね,(ふな)sen,fune,(funa)
+線:line:センsen
+前:infront:ゼン,まえzen,mae
+組:association:ソ,く-む,くみso,ku-mu,kumi
+走:run:ソウ,はし-るsō,hashi-ru
+多:many:タ,おお-いta,oo-i
+太:thick:タイ,タ,ふと-い,ふと-るtai,ta,futo-i,futo-ru
+体:7:body:タイ,テイ,からだtai,tei,karada
+台:pedestal:ダイ,タイdai,tai
+地:ground:チ,ジchi,ji
+池:pond:チ,いけchi,ike
+知:know:チ,し-るchi,shi-ru
+茶:tea:チャ,サcha,sa
+昼:daytime:チュウ,ひるchū,hiru
+長:long:チョウ,なが-いchō,naga-i
+鳥:bird:チョウ,とりchō,tori
+朝:morning:チョウ,あさchō,asa
+直:straight:チョク,ジキ,ただ-ちに,なお-す,なお-るchoku,jiki,tada-chini,nao-su,nao-ru
+通:passthrough:ツウ,(ツ),とお-る,とお-す,かよ-うtsū,(tsu),too-ru,too-su,kayo-u
+弟:youngerbrother:テイ,(ダイ),(デ),おとうとtei,(dai),(de),otōto
+店:shop:テン,みせten,mise
+点:point:テンten
+電:electricity:デンden
+刀:sword:トウ,かたなtō,katana
+冬:winter:トウ,ふゆtō,fuyu
+当:6:hit:トウ,あ-たる,あ-てるtō,a-taru,a-teru
+東:east:トウ,ひがしtō,higashi
+答:answer:トウ,こた-える,こた-えtō,kota-eru,kota-e
+頭:head:トウ,ズ,(ト),あたま,かしらtō,zu,(to),atama,kashira
+同:same:ドウ,おな-じdō,ona-ji
+道:road:ドウ,(トウ),みちdō,(tō),michi
+読:read:ドク,トク,(トウ),よ-むdoku,toku,(tō),yo-mu
+内:inside:ナイ,(ダイ),うちnai,(dai),uchi
+南:south:ナン,(ナ),みなみnan,(na),minami
+肉:meat:ニクniku
+馬:horse:バ,うま,(ま)ba,uma,(ma)
+売:sell:バイ,う-る,う-れるbai,u-ru,u-reru
+買:buy:バイ,か-うbai,ka-u
+麦:wheat:バク,むぎbaku,mugi
+半:half:ハン,なか-ばhan,naka-ba
+番:one'sturn:バンban
+父:father:フ,ちちfu,chichi
+風:wind:フウ,(フ),かぜ,(かざ)fū,(fu),kaze,(kaza)
+分:minute:ブン,フン,ブ,わ-ける,わ-かれる,わ-かる,わ-かつbun,fun,bu,wa-keru,wa-kareru,wa-karu,wa-katsu
+聞:hear:ブン,モン,き-く,き-こえるbun,mon,ki-ku,ki-koeru
+米:rice:ベイ,マイ,こめbei,mai,kome
+歩:walk:ホ,ブ,(フ),ある-く,あゆ-むho,bu,(fu),aru-ku,ayu-mu
+母:mother:ボ,ははbo,haha
+方:direction:ホウ,かたhō,kata
+北:north:ホク,きたhoku,kita
+毎:every:マイmai
+妹:youngersister:マイ,いもうとmai,imōto
+万:tenthousand:マン,バンman,ban
+明:bright:メイ,ミョウ,あ-かり,あか-るい,あか-るむ,あか-らむ,あき-らか,あ-ける,あ-く,あ-くる,あ-かすmei,myō,a-kari,aka-rui,aka-rumu,aka-ramu,aki-raka,a-keru,a-ku,a-kuru,a-kasu
+鳴:chirp:メイ,な-く,な-る,な-らすmei,na-ku,na-ru,na-rasu
+毛:hair:モウ,けmō,ke
+門:gates:モン,かどmon,kado
+夜:night:ヤ,よ,よるya,yo,yoru
+野:field:ヤ,のya,no
+友:friend:ユウ,ともyū,tomo
+用:use:ヨウ,もち-いるyō,mochi-iru
+曜:dayoftheweek:ヨウyō
+来:come:ライ,く-る,きた-る,きた-すrai,ku-ru,kita-ru,kita-su
+里:village:リ,さとri,sato
+理:reason:リri
+話:talk:ワ,はな-す,はなしwa,hana-su,hanashi
