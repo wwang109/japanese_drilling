@@ -1,3 +1,8 @@
+version 2.0 released 11/01/2012
+-remade start menu
+-added kanji levels
+-added placeholders for future options
+
 version 1.6 released - 10/31/2012
 -added color to correct answer and red for incorrect answer
 
