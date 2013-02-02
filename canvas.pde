@@ -5,7 +5,7 @@ qbox Options, hira, kata, kanji;
 boolean game = false;
 boolean answered = false;
 int edge = 50;
-int num_choice=4, rounds=0;
+int num_choice=7, rounds=0;
 int score, wrong;
 float box_h, field_w, field_l;
 int output = 0;
@@ -293,11 +293,12 @@ class qbox extends box
       rect(x, y, size, sizew);
       fill(0, 100, 250);
 	  //possible option to switch them
+	  textSize(25);
 	  if(s)
-		text(value[1], x, y, size, sizew);
-      else
 		text(value[0], x, y, size, sizew);
-      
+      else
+		text(value[1], x, y, size, sizew);
+      textSize(12);
       noFill();
    }
  

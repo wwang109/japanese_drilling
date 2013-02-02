@@ -1,4 +1,4 @@
-亜:sub-:アa
+﻿亜:sub-:アa
 哀:pathetic:アイ,あわ-れ,あわ-れむai,awa-re,awa-remu
 挨:pushopen:アイai
 曖:notclear:アイai
@@ -21,11 +21,11 @@
 緯:horizontal:イi
 壱:one(Falsificationprevention):イチichi
 逸:deviate:イツitsu
-茨[3]:thorn:(いばら)[4](ibara)
+茨:thorn:(いばら)[4](ibara)
 芋:potato:いもimo
 咽:stuffy:インin
 姻:matrimony:インin
-淫[5]:lewdness:イン,みだ-らin,mida-ra
+淫:lewdness:イン,みだ-らin,mida-ra
 陰:shade:イン,かげ,かげ-るin,kage,kage-ru
 隠:conceal:イン,かく-す,かく-れるin,kaku-su,kaku-reru
 韻:rhyme:インin
@@ -155,7 +155,7 @@
 憾:remorse:カンkan
 還:sendback:カンkan
 環:ring:カンkan
-韓[3]:Korea:カンkan
+韓:Korea:カンkan
 艦:warship:カンkan
 鑑:specimen:カン,かんが-みるkan,kanga-miru
 含:include:ガン,ふく-む,ふく-めるgan,fuku-mu,fuku-meru
@@ -763,7 +763,7 @@
 途:route:トto
 渡:transit:ト,わた-る,わた-すto,wata-ru,wata-su
 塗:paint:ト,ぬ-るto,nu-ru
-賭[5]:gamble:ト,か-けるto,ka-keru
+賭:gamble:ト,か-けるto,ka-keru
 奴:guy:ドdo
 怒:angry:ド,いか-る,おこ-るdo,ika-ru,oko-ru
 到:arrival:トウtō
@@ -838,13 +838,13 @@
 拍:clap:ハク,(ヒョウ)haku,(hyō)
 泊:overnight:ハク,と-まる,と-めるhaku,to-maru,to-meru
 迫:urge:ハク,せま-るhaku,sema-ru
-剝[5]:peel:ハク,は-がす,は-ぐ,は-がれる,は-げるhaku,ha-gasu,ha-gu,ha-gareru,ha-geru
+剝:peel:ハク,は-がす,は-ぐ,は-がれる,は-げるhaku,ha-gasu,ha-gu,ha-gareru,ha-geru
 舶:liner:ハクhaku
 薄:dilute:ハク,うす-い,うす-める,うす-まる,うす-らぐ,うす-れるhaku,usu-i,usu-meru,usu-maru,usu-ragu,usu-reru
 漠:vague:バクbaku
 縛:truss:バク,しば-るbaku,shiba-ru
 爆:explode:バクbaku
-箸[5]:chopsticks:はしhashi
+箸:chopsticks:はしhashi
 肌:texture:はだhada
 鉢:bowl:ハチ,(ハツ)hachi,(hatsu)
 髪:hairofthehead:ハツ,かみhatsu,kami
