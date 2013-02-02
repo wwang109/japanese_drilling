@@ -1,3 +1,6 @@
+update 02/02/2013
+-revamping this project
+
 version 2.0 released 11/01/2012
 -remade start menu
 -added kanji levels
